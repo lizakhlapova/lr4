@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    font-family: sans-serif;
+}
+
+
+.title_bar {
+    white-space: pre; 
+    justify-content: space-around;
+    padding: 0.45em;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(163, 163, 241);
+    font-family: 'Patrick Hand', cursive;
+    color: white;
+}
+
+.logo {
+    width: 240px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Dancing Script', cursive;
+}
+
+.logo > img {
+    width: 60px;
+}
+
+.logo > span {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+menu {
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+menu > a {
+    text-decoration: none;
+    padding: .5em 1em;
+    text-transform: uppercase;
+    color: white;
+}
+
+menu > a:hover {
+    background-color: rgb(118, 118, 236);
+}
+
+/* Page Content */
+
+main {
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+main > section {
+    width: 23%;
+    height: 720px;
+    display: flex;
+    align-items: center;
+    line-height: 1.5;
+}
+.center{
+    width: 23%;
+    height: 720px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.right{
+    width: 23%;
+    height: 720px;
+    display: flex;
+    text-align: right;
+    align-items: center;
+}
+
+/* Bottom Navigation */
+
+nav.bottom {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(122, 122, 224);
+}
+
+nav.bottom > a {
+    padding: .5em 1.5em;
+    text-decoration: none;
+}
+
+nav.bottom > a:hover {
+    background-color: rgb(64, 64, 216);
+}
+
+/* Footer */
+
+footer {
+    padding: 0.5em;
+    text-align: center;
+    background-color: rgb(40, 40, 221);
+}
+
+/* Other */
+
+nav.bottom > a,
+footer {
+    color: #fff;
+}
